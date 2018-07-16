@@ -82,7 +82,7 @@ public:
   // ===========================================================================
   /// @{
 public:
-
+  UFUNCTION(Category = "Road Map", BlueprintCallable)
   void SetRoadMap(URoadMap *InRoadMap)
   {
     RoadMap = InRoadMap;
